@@ -35,7 +35,7 @@ export const handler = async (event) => {
           baseUrl: url,
           whiteList: whiteList || [],
           blackList: blackList || [],
-          type: type || "",
+          type: type || "link",
         });
         queue.push(...newLinks.filter((link) => !visited.has(link)));
         await page.close();
