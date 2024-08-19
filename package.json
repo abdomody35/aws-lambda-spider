@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@sparticuz/chromium": "^126.0.0",
+    "axios": "^1.7.4",
+    "cheerio": "^1.0.0",
+    "pdf-parse": "^1.1.1",
+    "puppeteer-core": "^22.13.1"
+  }
+}
